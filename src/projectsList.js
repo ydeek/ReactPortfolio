@@ -7,12 +7,8 @@ import fureverHome from "./images/fureverHome.png";
 import clicky from "./images/clicky.png";
 import friendFinder from "./images/friendFinder.png";
 import bamazon from "./images/bamazon.jpg";
-import crystal from "./images/crystalcollector.png";
-import fridgeChef from "./images/fridgechef.png";
-import giftastic from "./images/giftastic.png";
 import liri from "./images/liri-node-app.png";
-import trainTimes from "./images/traintimes.png";
-import trivia from "./images/trivia.png";
+
 
 const items = [
   {
