@@ -1,6 +1,6 @@
 
 // All images required for the Carousel
-import birdBird from "./images/birdBird.png";
+import simpleResume from "./images/simpleResume.png";
 import reelTime from "./images/reelTime.png";
 import googleBooks from "./images/googlebooks.png";
 import fureverHome from "./images/fureverHome.png";
@@ -13,19 +13,19 @@ import liri from "./images/liri-node-app.png";
 const items = [
   {
     id: 1,
-    src: birdBird,
-    altText: "Bird Bird Biscuit Website",
-    caption: "My first professional website. Created entirely by myself, featuring a MySQL database and some NPM packages I'd never used before, this application boasts separate pages for customer and employee and will be live at some point in late 2020. I'm so proud of how this turned out and can't wait to see it working for real.",
-    link: "https://github.com/seanbelverstone/Bird-Bird-Ordering",
-    live: "https://birdbirdbiscuit.herokuapp.com/"
+    src: simpleResume,
+    altText: "Simple Resume",
+    caption: "Create and save your own resume.",
+    link: "https://github.com/ydeek91/SimpleResume",
+    live: "https://group1-simple-resume.herokuapp.com/"
   },
   {
     id: 2,
-    src: reelTime,
-    altText: "Reel Time",
-    caption: "Reel Time is my final graduation project. Utilising a combination of React, Sequelize and Express, and built in a group of 4, this project is a culmination of everything we had learnt on over the previous 6 months. My role in the group was to focus on the back-end, including routing, server setup and database management.",
-    link: "https://github.com/seanbelverstone/Reel-Time",
-    live: "https://reel-time-app.herokuapp.com/"
+    src: recipeRoulette,
+    altText: "Recipe Roulette",
+    caption: "Check out the following project for suggested random food and drinks recipes",
+    link: "https://albie140.github.io/Recipe-Roulette",
+    live: "https://github.com/ydeek91/Recipe-Roulette"
   },
   {
     id: 3,
