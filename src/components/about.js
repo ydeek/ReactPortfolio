@@ -1,6 +1,6 @@
 import React from 'react';
 import { About, Container } from 'reactstrap';
-import image from "../images/about-me-photo.jpg";
+import image from "../images/yazan.jpg";
 import githubLogo from "../images/GitHub-Mark-120px-plus.png";
 import linkedInLogo from "../images/linkedin.png";
 
@@ -30,7 +30,7 @@ const MainSection = (props) => {
             <div className="row">
                 <div id="aboutMeSection">
                     <div className="col-lg-3 col-12">
-                        <img src="./images/yazan" alt="Yazan Deek" id="myPhoto" />
+                        <img src={image} alt="Yazan Deek" id="myPhoto" />
                     </div>
                     <div className="col-12">
                         <div id="aboutMeText">
