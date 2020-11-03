@@ -30,7 +30,7 @@ const MainSection = (props) => {
             <div className="row">
                 <div id="aboutMeSection">
                     <div className="col-lg-3 col-12">
-                        <img src={image} alt="Yazan Deek" id="myPhoto" />
+                        <img src="./images/yazan" alt="Yazan Deek" id="myPhoto" />
                     </div>
                     <div className="col-12">
                         <div id="aboutMeText">
