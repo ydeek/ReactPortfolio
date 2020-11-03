@@ -14,13 +14,13 @@ const MainSection = (props) => {
                             <h1 className="display-3">From Full English to Full Stack</h1>
                             <p className="lead">My personal journey from chef to coder.</p>
 
-                            <a className="logo" href="https://github.com/seanbelverstone">
+                            <a className="logo" href="https://github.com/ydeek91">
                                 <img src={githubLogo} alt="GitHub logo" id="github" />
                             </a>
-                            <a className="logo" href="https://www.linkedin.com/in/sean-belverstone/">
+                            <a className="logo" href="https://www.linkedin.com/in/yazan-deek-408332aa/">
                                 <img src={linkedInLogo} alt="LinkedIn logo" id="linkedin" />
                             </a>
-                            <a className="logo" href="https://drive.google.com/file/d/1fXTNVPvD0wRBIUyHc-Y8QWaxbEOjTLP0/view?usp=sharing" id="cv">
+                            <a className="logo" href="yazanresume.pdf" id="cv">
                                 CV
                     </a>
                         </Container>
@@ -30,7 +30,7 @@ const MainSection = (props) => {
             <div className="row">
                 <div id="aboutMeSection">
                     <div className="col-lg-3 col-12">
-                        <img src={image} alt="Sean Belverstone" id="myPhoto" />
+                        <img src={image} alt="Yazan Deek" id="myPhoto" />
                     </div>
                     <div className="col-12">
                         <div id="aboutMeText">
