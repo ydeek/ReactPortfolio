@@ -3,6 +3,7 @@ import { Jumbotron, Container } from 'reactstrap';
 import image from "../images/yazan.jpg";
 import githubLogo from "../images/GitHub-Mark-120px-plus.png";
 import linkedInLogo from "../images/linkedin.png";
+import resumePdf from "../images/yazanresume.pdf"
 
 const MainSection = (props) => {
     return (
@@ -20,7 +21,7 @@ const MainSection = (props) => {
                             <a className="logo" href="https://www.linkedin.com/in/yazan-deek-408332aa/">
                                 <img src={linkedInLogo} alt="LinkedIn logo" id="linkedin" />
                             </a>
-                            <a className="logo" href="yazanresume.pdf" id="cv">
+                            <a className="logo" href={resumePdf} id="cv">
                                 CV
                     </a>
                         </Container>
