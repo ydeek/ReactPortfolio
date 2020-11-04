@@ -11,8 +11,8 @@ const MainSection = (props) => {
                 <div className="col-12">
                     <Jumbotron fluid>
                         <Container fluid>
-                            <h1 className="display-3">From Full English to Full Stack</h1>
-                            <p className="lead">My personal journey from chef to coder.</p>
+                            <h1 className="display-3">Full Stack Developer</h1>
+                            <p className="lead">Checkout my work in web develpment</p>
 
                             <a className="logo" href="https://github.com/ydeek91">
                                 <img src={githubLogo} alt="GitHub logo" id="github" />
@@ -34,9 +34,15 @@ const MainSection = (props) => {
                     </div>
                     <div className="col-12">
                         <div id="aboutMeText">
-                            <p>write aobut me </p>
-                            <p>more about me</p>
-                            <p>more more about me</p>
+                            <p> My name is Yazan Deek, a Full Stack Developer and a current student at Penn LPS Coding Bootcamp. I am qulified
+                            to build web applications using HTML, CSS, Bootstrap, Javascript, jQuery, AJAX, and API's. These skills are
+        proven through my assignments and projects. They can be seen in my portfolio page. </p>
+
+                            <p>I am pursuing a career change in web development. I am interested in building web and mobile application in a
+                            unique and creative way. I joined this program because it gives me the
+                            opportunity to improve my skills in many areas such as critical thinking, problem solving, and work in fast pace environments.</p>
+                            <p>I speak three languages English, Arabic, and Spanish. My hobbies are cooking, reading, traveling, volleyball,
+        and learning new languages</p>
                         </div>
                     </div>
                 </div>
