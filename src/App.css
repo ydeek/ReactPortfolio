@@ -102,6 +102,9 @@ a:active {
 #myPhoto {
   float: left;
   margin: 20px;
+  width: 100%;
+  
+  
 }
 
 #aboutMeText {
