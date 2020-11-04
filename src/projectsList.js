@@ -4,8 +4,8 @@ import simpleResume from "./images/simpleResume.png";
 import recipeRoulette from "./images/project.png";
 import noteTaker from "./images/notetaker.png";
 import eatBurger from "./images/burger.png";
-import quizCode from "./images/quizcode.png";
-import friendFinder from "./images/friendFinder.png";
+import quizCode from "./images/quizcode.PNG";
+import passwordGenerator from "./images/password.PNG";
 
 
 const items = [

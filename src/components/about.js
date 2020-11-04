@@ -1,5 +1,5 @@
 import React from 'react';
-import { About, Container } from 'reactstrap';
+import { Jumbotron, Container } from 'reactstrap';
 import image from "../images/yazan.jpg";
 import githubLogo from "../images/GitHub-Mark-120px-plus.png";
 import linkedInLogo from "../images/linkedin.png";
@@ -9,7 +9,7 @@ const MainSection = (props) => {
         <div>
             <div className="row">
                 <div className="col-12">
-                    <About fluid>
+                    <Jumbotron fluid>
                         <Container fluid>
                             <h1 className="display-3">From Full English to Full Stack</h1>
                             <p className="lead">My personal journey from chef to coder.</p>
@@ -24,7 +24,7 @@ const MainSection = (props) => {
                                 CV
                     </a>
                         </Container>
-                    </About>
+                    </Jumbotron>
                 </div>
             </div>
             <div className="row">

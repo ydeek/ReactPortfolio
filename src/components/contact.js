@@ -154,7 +154,8 @@ export default class Example extends React.Component {
                 <Button
                     color="primary"
                     onClick={this.onSubmit}>
-                    Submit
+
+                    ubmit
       </Button>
                 <p id="confirmationMessage">{this.state.confirmation}</p>
 
